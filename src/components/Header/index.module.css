@@ -1,0 +1,31 @@
+/*
+ * @Author: 赵东升
+ * @Date: 2022/11/3
+ */
+
+.box {
+  width: 100%;
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contentTitle {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+}
+.contentSearch {
+  width: 100%;
+
+}

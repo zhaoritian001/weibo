@@ -1,0 +1,59 @@
+/*
+ * @Author: 赵东升
+ * @Date: 2022/11/3
+ */
+.listItem {
+    color: #14BCF5;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.leftHeader {
+    background: url(https://h5.sinaimg.cn/upload/1005/526/2021/08/23/bg.jpg) no-repeat;
+    background-size: 100%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.text {
+    width: 140px;
+    height: 63px;
+    background: url(https://h5.sinaimg.cn/upload/1005/526/2021/08/23/text.png) no-repeat;
+    background-size: 100%;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 0 auto;
+    line-height: 63px;
+}
+.fei {
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 148, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+}
+.new {
+    background: rgb(255, 56, 82);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+}
+.qiansan {
+    color: #f26d5f;
+}
+.other {
+    color: #ff8200;
+}
